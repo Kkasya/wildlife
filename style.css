@@ -12,6 +12,10 @@ body {
     color: #F7F7F7;
 }
 
+section {
+    padding: 0 12rem;
+}
+
 li, a {
     text-decoration: none;
     list-style-type: none;
@@ -31,10 +35,21 @@ h1 {
     margin: 0;
 }
 
+.btn {
+    font-size: 2.3rem;
+    line-height: 6rem;
+    color: #F7F7F7;
+    outline: none;
+    border: none;
+    background: #CD6326;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .section-first {
     background: url("images/header.png") center;
     background-size: cover;
-    padding: 0 12rem;
 }
 
 .wrapper-header {
@@ -99,16 +114,11 @@ li img {
 }
 
 .btnSign {
-    font-size: 2.3rem;
     line-height: 2.7rem;
-    color: #F7F7F7;
     background: transparent;
     width: 12rem;
     height: 5rem;
     border: 0.2rem solid #CD6326;
-    border-radius: 0.5rem;
-    outline: none;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btnSign:hover {
@@ -143,24 +153,152 @@ h2 {
 }
 
 .btnDonate {
-    font-size: 2.3rem;
-    line-height: 6rem;
-    color: #F7F7F7;
-    outline: none;
-    border: none;
-    background: #CD6326;
-    border-radius: 5px;
     width: 16rem;
     height: 6rem;
-    text-align: center;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 24rem;
 }
 
-.btnDonate:hover {
+.btn:hover {
     background: #E39128;
 }
 
-.btnDonate:active {
+.btn:active {
     background: #8F5613;
+}
+
+
+
+
+
+.section-second {
+    background-color: #CCCCCC;
+    text-align: center;
+}
+
+.title {
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+    padding: 12rem 0 0 0;
+    letter-spacing: 0;
+}
+
+.description-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #666666;
+    padding-bottom: 9.3rem;
+}
+
+.articles {
+    display: flex;
+    padding: 0 0.8rem 21rem 0.8rem;
+    font-family: "Open Sans", sans-serif;
+    justify-content: space-between;
+}
+
+.article2 {
+    padding: 0 0.8rem;
+}
+
+
+.get {
+    color: #333333;
+    font-size: 2.7rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 4rem;
+    padding: 0 0 3.1rem 0;
+}
+
+.send {
+    display: flex;
+    padding: 0 0 24rem 0;
+    justify-content: center;
+}
+
+.email {
+    color: #666666;
+    font-size: 2.3rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 2.7rem;
+    border: 1px solid #666666;
+    width: 52.4rem;
+    height: 5.8rem;
+    outline: none;
+    background: transparent;
+    padding-left: 1.3rem;
+}
+
+.btnSend {
+    border: 1px solid #CD6326;
+    border-radius: 0 5px 5px 0;
+    width: 12rem;
+    height: 6.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 2.7rem;
+    box-shadow: none;
+}
+
+.wrapper-article{
+    position: relative;
+}
+
+.wrapper-article h4 {
+    position: absolute;
+    font-size: 2.2rem;
+    font-weight: normal;
+    line-height: 3.6rem;
+}
+
+.wrapper-article p {
+    font-size: 1.7rem;
+    position: absolute;
+}
+
+.article1 h4 {
+    top: 60%;
+    left: 42%;
+}
+
+.article1 p {
+    top: 76.5%;
+    left: 19%;
+}
+
+.article2 h4 {
+    top: 60%;
+    left: 37%;
+}
+
+.article2 p {
+    top: 76.5%;
+    left: 26%;
+}
+.article3 h4 {
+    top: 60%;
+    left: 43%;
+}
+
+.article3 p {
+    top: 76.5%;
+    left: 30%;
+}
+i {
+    border: solid #666666;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-left {
+    transform: rotate(135deg);
+}
+
+.arrow-right {
+    transform: rotate(315deg);
+}
+
+.arrow {
+    margin: auto 0;
 }
