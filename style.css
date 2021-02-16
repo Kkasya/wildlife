@@ -4,15 +4,16 @@ html {
 }
 
 body {
-    margin: 0 auto;
-    width: 144rem;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #F7F7F7;
+    background-color: #02160b;
 }
 
 section {
+    margin: 0 auto;
+    width: 144rem;
     padding: 0 12rem;
 }
 
@@ -113,7 +114,7 @@ li img {
 
 #search {
     display:flex;
-    justify-content: center; /*центрируем элемент по горизонтали */
+    justify-content: center;
     align-items: center;
     cursor: pointer;
 }
