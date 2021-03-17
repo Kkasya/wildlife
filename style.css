@@ -1,6 +1,5 @@
 html {
     font-size: 10px;
-    margin: 0;
 }
 
 body {
@@ -9,11 +8,12 @@ body {
     font-weight: 400;
     color: #F7F7F7;
     background-color: #02160b;
+    margin: 0 auto;
 }
 
 section {
     margin: 0 auto;
-    width: 144rem;
+    width: 120rem;
     padding: 0 12rem;
 }
 
@@ -379,17 +379,17 @@ footer {
 }
 
 .facebook {
-    background-image: url("./images/facebook.png");
+    background-image: url("./images/facebook.svg");
 }
 
 .instagram {
-    background-image: url("./images/instagram.png");
+    background-image: url("./images/instagram.svg");
 }
 
 .picneress {
-    background-image: url("./images/picneress.png");
+    background-image: url("./images/picneress.svg");
 }
 
 .telegram {
-    background-image: url("./images/telegram.png");
+    background-image: url("./images/telegram.svg");
 }
